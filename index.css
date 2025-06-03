@@ -1,0 +1,97 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbtn {
+    display: flex;
+    gap: 30px;
+}
+
+.btnhm {
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 10px;
+}
+
+.healthy {
+    height: 400px;
+    background-color: #0B6434;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.lktaba {
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+    max-width: 500px;
+}
+
+.lktaba h1 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.lktaba p {
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.learnmore {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #0B6434;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.imghealthy img {
+    max-height: 300px;
+}
+
+/* Section category */
+.category {
+    height: auto;
+    padding: 20px 40px;
+}
+
+.ktaba1 h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.imgs {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.imgs img {
+    width: 100px;
+    object-fit: contain;
+    text-align: center;
+}
+.featured{
+    height: 200px;
+}
