@@ -18,7 +18,7 @@ body {
     justify-content: start;
     text-align: center;
     padding: 30px 0;
-    position: relative;  /* Ensure images can be positioned relative to this container */
+    position: relative;
 }
 
 .navHeader {
@@ -110,9 +110,9 @@ body {
 }
 
 .chibh {
-    position: absolute;  /* Position it absolutely in the header */
-    top: 80px;           /* Adjust its position to be further down */
-    right: 10px;         /* Position it near the right */
+    position: absolute;
+    top: 80px;
+    right: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -124,9 +124,9 @@ body {
 }
 
 .chibh1 {
-    position: absolute;  /* Position it absolutely in the header */
-    bottom: 10px;        /* Position it near the bottom */
-    left: 10px;          /* Position it near the left */
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -135,4 +135,242 @@ body {
 .chibh1 img {
     width: 50px;
     height: auto;
+}
+
+
+.mid {
+    margin-top: 50px;
+    padding: 50px 20px;
+    display: flex;
+    align-items: center;
+    background-color: #4E2A84;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.ktba {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px; 
+}
+
+.ktba button {
+    background-color: #FF6F61;
+    color: white;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.ktba button:hover {
+    background-color: #FF5A50;
+}
+
+.ktba h1 {
+    font-size: 36px;
+    color: white;
+    margin-top: 20px;
+}
+
+.ktba p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #DDD;
+}
+
+.immg {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.app-screens {
+    display: flex;
+    gap: 40px;
+}
+
+.screen {
+    position: relative;
+    background-color: #3C1C5E;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.screen img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+
+.Ecom {
+    margin-top: 50px;
+    padding: 50px 20px;
+    display: flex;
+    align-items: center;
+    background-color: #F5E8D4; 
+    border-radius: 20px;
+    text-align: left;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.ktba1 {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+.ktba1 button {
+    background-color: #FF6F61;
+    color: white;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.ktba1 button:hover {
+    background-color: #FF5A50;
+}
+
+.ktba1 h1 {
+    font-size: 36px;
+    color: #333;
+    margin-top: 20px;
+}
+
+.ktba1 p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #777;
+}
+
+.immg2 {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.immg2 img {
+    width: 80%;
+    height: auto;
+    border-radius: 30px; /* Rounded corners for the image */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow around image */
+}
+.healthlk{
+    margin-top: 50px;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3B54FC; /* Soft beige background */
+    border-radius: 20px;
+    text-align: left;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+
+}
+.ktba2 button {
+    background-color: #F8B894;
+    color: white;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.ktba2 {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+    gap: 20px;
+}
+.immg3{
+    margin-right: 400px;
+}
+.thx {
+    margin-top: 50px;
+   
+    display: flex;
+  
+    
+    background-color: #F3F3F3; /* Light gray background */
+    border-radius: 20px;
+    text-align: left;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.thhx {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 20px; /* Space between the text and image */
+}
+
+.thhx h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #333;
+}
+
+.thhx p {
+    font-size: 18px;
+    color: #777;
+    margin-top: 20px;
+}
+
+.thhx h2 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.imig {
+    display: flex;
+    justify-content: end;
+  
+}
+
+.imig img {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow around the image */
+}
+@media only screen and (max-width: 480px) {
+    .thx {
+        padding: 20px 10px; /* Less padding for very small screens */
+    }
+
+    .thhx h1 {
+        font-size: 28px; /* Further reduce heading font size */
+    }
+
+    .thhx h2 {
+        font-size: 18px; /* Further reduce subheading font size */
+    }
+
+    .thhx p {
+        font-size: 14px; /* Further reduce paragraph font size */
+    }
+
+    .imig img {
+        width: 100%; /* Ensure image is responsive for very small screens */
+    }
 }
