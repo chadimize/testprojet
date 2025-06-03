@@ -1,97 +1,138 @@
-*{
-margin: 0;
-padding: 0;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F9F9F9;
+    color: #333;
+}
 
-.nav{
+.header {
+    background-color: #FFF0F1;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: center;
+    padding: 30px 0;
+    position: relative;  /* Ensure images can be positioned relative to this container */
+}
+
+.navHeader {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
+    padding: 20px 30px;
+}
+
+.brand {
+    font-size: 30px;
+    font-family: 'Arizonia', cursive;
+    font-weight: 500;
+    color: black;
 }
 
 .navbtn {
     display: flex;
-    gap: 30px;
+    gap: 20px;
 }
 
 .btnhm {
-    background-color: white;
+    background-color: #FFF0F4;
     color: black;
     border: none;
     cursor: pointer;
     font-size: 16px;
-    font-weight: 500;
+    padding: none;
+    font-weight: 400;
     text-transform: capitalize;
-    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
 }
 
-.healthy {
-    height: 400px;
-    background-color: #0B6434;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 40px;
-}
-
-.lktaba {
+.btnh {
+    border-color: #2349FF;
+    background-color: #2349FF;
     color: white;
-    font-family: Montserrat, sans-serif;
-    font-size: 24px;
-    max-width: 500px;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    border-radius: 30px;
 }
 
-.lktaba h1 {
-    font-size: 32px;
-    font-weight: bold;
-    text-transform: uppercase;
+.btnhm:hover {
+    background-color: #6A2E8D;
+    color: white;
 }
 
-.lktaba p {
-    font-size: 14px;
-    line-height: 24px;
-    text-transform: uppercase;
+.intro {
+    margin-top: 50px;
 }
 
-.learnmore {
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: white;
-    color: #0B6434;
-    border: none;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor: pointer;
+.intro h2 {
+    font-size: 60px;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 10px;
 }
 
-.imghealthy img {
-    max-height: 300px;
-}
-
-/* Section category */
-.category {
-    height: auto;
-    padding: 20px 40px;
-}
-
-.ktaba1 h1 {
-    font-size: 24px;
-    font-weight: bold;
+.intro p {
+    font-family: 'Buenos Aires', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
     margin-bottom: 20px;
 }
 
-.imgs {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.buttons {
+    margin-top: 20px;
 }
 
-.imgs img {
-    width: 100px;
-    object-fit: contain;
-    text-align: center;
+.be, .in {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 12px 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: 1px solid #2349FF;
+    margin: 0 10px;
 }
-.featured{
-    height: 200px;
+
+.be:hover, .in:hover {
+    background-color: #2349FF;
+    color: white;
+}
+
+.chibh {
+    position: absolute;  /* Position it absolutely in the header */
+    top: 80px;           /* Adjust its position to be further down */
+    right: 10px;         /* Position it near the right */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chibh img {
+    width: 50px;
+    height: auto;
+}
+
+.chibh1 {
+    position: absolute;  /* Position it absolutely in the header */
+    bottom: 10px;        /* Position it near the bottom */
+    left: 10px;          /* Position it near the left */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chibh1 img {
+    width: 50px;
+    height: auto;
 }
